@@ -26,8 +26,5 @@ Börja med år, sen månad och sist dag\n"""))
         continue
 
 today = date.today()
-delta_date = compare_date-today
-if delta_date > 0:
-    print(f"Det är {delta_date} dagars skillnad från idag")
-else: 
-    print(f"")
+days = compare_date-today
+print(f"Det är {days} dagars skillnad från idag")
